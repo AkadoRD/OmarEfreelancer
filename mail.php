@@ -1,8 +1,8 @@
 <?php 
 if(isset($_POST['send'])){
-    $name=$_POST['name']
-    $email=$_POST['email']
-    $message=$_POST['message']
+    $name=$_POST['name'];
+    $email=$_POST['email'];
+    $message=$_POST['message'];
 
     $to="omarencarnacion.r@gmail.com";
     $subject="New E-Mail from $email";
