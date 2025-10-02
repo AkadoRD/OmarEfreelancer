@@ -13,9 +13,9 @@ if(isset($_POST["send"])){
 
     $header="From: new@customer.com";
 
-    $email=mail($to,$subjet,$content,$header);
+    $mail=mail($to,$subjet,$content,$header);
 
-    if($mai){
+    if($mail){
         echo "<script>alert('Message Sent');</script>";
     }else{
         echo "<script>alert('Message Not Sent');</script>";
